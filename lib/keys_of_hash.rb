@@ -5,4 +5,3 @@ class Hash
     end.compact
   end	 
 end
-end
