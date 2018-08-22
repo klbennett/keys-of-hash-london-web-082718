@@ -3,7 +3,7 @@ class Hash
     arr = []
      self.map do |key, value|
       if arguments.include?(value)
-        
+        arr << key
     end
   end	 
   arr
