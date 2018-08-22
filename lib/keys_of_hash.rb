@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-     def keys_of(*args)self.map do |key, value|
+     self.map do |key, value|
       key if args.include?(value)
     end.compact
   end	  end
