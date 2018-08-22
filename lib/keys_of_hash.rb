@@ -1,9 +1,9 @@
 class Hash
   def keys_of(*arguments)
-    arr = []
-  self.map do |y, z|
-    arguments.include?(y)
-    arr.push(z)
-  end
+     def keys_of(*args)self.map do |key, value|
+      key if args.include?(value)
+    end.compact
+  end	  end
+    
   end
 end
