@@ -5,4 +5,5 @@ class Hash
     arguments.include?(y)
     return x
   end
+  end
 end
