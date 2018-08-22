@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    arr = []
+    arr = nil
   self.map do |x, y|
     arguments.include?(y)
     arr << x
